@@ -1,0 +1,129 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --hover-color: #2196f3;
+  --background-color: #e5e5e5;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+}
+
+.main-logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.first {
+  color: var(--hover-color);
+}
+.second {
+  color: #000000;
+}
+.main-navbar {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 2%;
+}
+
+.main-navbar a {
+  text-decoration: none;
+}
+.main-navbar a:hover {
+  color: var(--hover-color);
+}
+.navbar-contacts {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.navbar-contacts:hover {
+  color: var(--hover-color);
+}
+
+.button {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 139%;
+  box-align: Center;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  border-radius: 4px;
+}
+.button:hover,
+.button:focus,
+.button:active {
+  cursor: pointer;
+  background-color: var(--hover-color);
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.picture-name {
+  font-family: "Roboto";
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.picture-description {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.address-line {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts {
+  background-color: #2f303a;
+}
+
+.mail-link {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel-number {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--hover-color);
+}
+.tel-number:hover,
+.tel-number:focus {
+  color: var(--hover-color);
+}
+.second-logo {
+  color: #ffffff;
+}
