@@ -61,6 +61,8 @@ body {
   vertical-align: Top;
   letter-spacing: 3%;
   border-radius: 4px;
+  border-style: none;
+  padding: 6px 22px;
 }
 .button:hover,
 .button:focus,
@@ -93,6 +95,7 @@ ul {
 }
 
 .address-line {
+  margin-left: 215px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -101,8 +104,12 @@ ul {
 .contacts {
   background-color: #2f303a;
 }
+.contacts > a {
+  margin-left: 215px;
+}
 
 .mail-link {
+  margin-left: 215px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -111,6 +118,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .tel-number {
+  margin-left: 215px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -129,16 +137,16 @@ ul {
 }
 
 .team-member {
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.03em;
-color: var(--main-color)
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
 }
 .position {
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.03em;
-color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
