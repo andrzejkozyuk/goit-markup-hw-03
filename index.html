@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/newstyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,146 +21,186 @@
     />
   </head>
   <body>
-    <header>
-      <a class="main-logo" href="./index.html"
-        ><span class="first">Web</span><span class="second">Studio</span></a
-      >
-      <nav class="main-navbar">
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#logo">Kontakt</a></li>
+    <header class="top-menu">
+      <div class="container nav-menu">
+        <nav class="main-navbar">
+          <a class="main-logo link" href="./index.html"
+            ><span class="first">Web</span><span class="second">Studio</span></a
+          >
+          <ul class="main-menu list">
+            <li class="main-menu-item">
+              <a class="menu-link link" href="#">Agencja</a>
+            </li>
+            <li class="main-menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="main-menu-item">
+              <a class="menu-link link" href="#logo">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="main-navbar-contacts list">
+          <li class="navbar-contact-item">
+            <a class="navbar-contacts link" href="maito:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="navbar-contact-item">
+            <a class="navbar-contacts link"  href="tel:+380961111111">+48 111 111 111</a>
+          </li>
         </ul>
-      </nav>
-      <a class="navbar-contacts" href="maito:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="navbar-contacts">+48 111 111 111</a>
+      </div>
     </header>
     <main>
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button class="button">Zamów usługe</button>
-      <ul>
-        <li>
-          <h4>Lorem ipsum</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-            distinctio!
-          </p>
-        </li>
-        <li>
-          <h4>Lorem ipsum.</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
-            dolore.
-          </p>
-        </li>
-        <li>
-          <h4>Lorem, ipsum.</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum,
-            alias.
-          </p>
-        </li>
-        <li>
-          <h4>Lorem, ipsum.</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta,
-            est?
-          </p>
-        </li>
-      </ul>
-      <section>
-        <h2>Czym się zajmujemy</h2>
-        <img
-          src="./images/img11.jpg"
-          alt="praca programisty"
-          width="370"
-          height="294"
-        />
-        <img
-          src="./images/img22.jpg"
-          alt="tworzenie aplikacji mobilnej"
-          width="370"
-          height="294"
-        />
-        <img
-          src="./images/img33.jpg"
-          alt="paletka kolorów"
-          width="370"
-          height="294"
-        />
-        <h2>Nasz zespół</h2>
-        <ul class="team-list">
-          <li>
-            <figure>
+      <section class="top section">
+        <div class="container">
+          <h1 class="section-title">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
+          <button class="button">Zamów usługe</button>
+        </div>
+      </section>
+      <section class="lorem section">
+        <div class="container">
+          <ul class="lorem-ipsum list">
+            <li class="lorem-ipsum-item">
+              <h4 class="lorem-ipsum-title">Lorem ipsum</h4>
+              <p class="lorem-ipsum-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, distinctio!
+              </p>
+            </li>
+            <li class="lorem-ipsum-item">
+              <h4 class="lorem-ipsum-title">Lorem ipsum.</h4>
+              <p class="lorem-ipsum-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
+                dolore.
+              </p>
+            </li>
+            <li class="lorem-ipsum-item">
+              <h4 class="lorem-ipsum-title">Lorem, ipsum.</h4>
+              <p class="lorem-ipsum-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dolorum, alias.
+              </p>
+            </li>
+            <li class="lorem-ipsum-item">
+              <h4 class="lorem-ipsum-title">Lorem, ipsum.</h4>
+              <p class="lorem-ipsum-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Soluta, est?
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="activity-type section">
+        <div class="container">
+          <h2 class="activity-type-title">Czym się zajmujemy</h2>
+          <ul class="activity-type-list list">
+            <li class="activity-type-item">
+              <img
+                src="./images/img11.jpg"
+                alt="praca programisty"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="activity-type-item">
+              <img
+                src="./images/img22.jpg"
+                alt="tworzenie aplikacji mobilnej"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="activity-type-item">
+              <img
+                src="./images/img33.jpg"
+                alt="paletka kolorów"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="team-member section">
+        <div class="container">
+          <h2 class="team-members">Nasz zespół</h2>
+          <ul class="team-list list">
+            <li class="team-members-list">
               <img
                 src="./images/img44.jpg"
                 alt="projektant produktu"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <p class="team-member">John Doe</p>
+              <div class="team-member-wrapper">
+                <h4 class="team-member-name">John Doe</h4>
                 <p class="position">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
+              </div>
+            </li>
+            <li class="team-members-list">
               <img
                 src="./images/img55.jpg"
                 alt="frontend programista"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <p class="team-member">John Doe</p>
+              <div class="team-member-wrapper">
+                <h4 class="team-member-name">John Doe</h4>
                 <p class="position">Frontend developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
+              </div>
+            </li>
+            <li class="team-members-list">
               <img
                 src="./images/img66.jpg"
                 alt="pracownik działu marketingu"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <p class="team-member">John Doe</p>
+              <div class="team-member-wrapper">
+                <h4 class="team-member-name">John Doe</h4>
                 <p class="position">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
+              </div>
+            </li>
+            <li class="team-members-list">
               <img
                 src="./images/img77.jpg"
                 alt="UI projektant"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <p class="team-member">John Doe</p>
+              <div class="team-member-wrapper">
+                <h4 class="team-member-name">John Doe</h4>
                 <p class="position">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="contacts">
-      <a id="logo" class="main-logo" href="./index.html"
-        ><span class="first">Web</span
-        ><span class="second-logo">Studio</span></a
-      >
-      <address>
-        <p class="address-line">m. Warszawa, Aleje Jerozolimskie 21</p>
-      </address>
-      <p class="mail-link">info@example.com</p>
-      <p class="tel-number">+48 111 111 111</p>
+    <footer class="footer-contacts">
+      <div class="container">
+        <a id="logo" class="footer-logo link" href="./index.html"
+          ><span class="first">Web</span
+          ><span class="second-logo">Studio</span></a
+        >
+        <address class="footer-address-list">
+          <ul class="footer-contact list">
+            <li class="address-line">m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li class="mail-link">
+              <a class="link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="tel-number">
+              <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

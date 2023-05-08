@@ -12,8 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style2.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/newstyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,177 +21,220 @@
     />
   </head>
   <body>
-    <header>
-      <div class="menu-container">
-      <a class="main-logo" href="./index.html"
-        ><span class="first">Web</span><span class="second">Studio</span></a
-      >
-      <nav class="main-navbar">
-        <ul class="main-navbar-items">
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#logo">Kontakt</a></li>
-          <li></li>
+    <header class="top-menu">
+      <div class="container nav-menu">
+        <nav class="main-navbar">
+          <a class="main-logo link" href="./index.html"
+            ><span class="first">Web</span><span class="second">Studio</span></a
+          >
+          <ul class="main-menu list">
+            <li class="main-menu-item">
+              <a class="menu-link link" href="#">Agencja</a>
+            </li>
+            <li class="main-menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="main-menu-item">
+              <a class="menu-link link" href="#logo">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="main-navbar-contacts list">
+          <li class="navbar-contact-item">
+            <a class="navbar-contacts link" href="maito:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="navbar-contact-item">
+            <a class="navbar-contacts link" href="tel:+380961111111"
+              >+48 111 111 111</a
+            >
+          </li>
         </ul>
-      </nav>
-      <div class="main-navbar-contacts">
-      <a class="navbar-contacts" href="maito:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="navbar-contacts">+48 111 111 111</a>
       </div>
     </header>
     <main>
-      <nav class="button-navigation">
-        <ul>
-          <li><button class="button">Wszystkie</button></li>
-          <li><button class="button">Strony</button></li>
-          <li><button class="button">Aplikacje</button></li>
-          <li><button class="button">Dizajn</button></li>
-          <li><button class="button">Marketing</button></li>
-        </ul>
-      </nav>
-      <div class="main-container">
-        <ul class="container-list">
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hw2(1).jpg"
-                alt="makieta strony internetowej"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Technocrack</p>
-                <p class="picture-description">Strona internetowa</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hm2(2).jpg"
-                alt="przykład dizajnu baneru"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Grafika New Orlean vs Golden Star</p>
-                <p class="picture-description">Dizajn</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hm2(3).jpg"
-                alt="logo restauracji"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Restauracja Seafood</p>
-                <p class="picture-description">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hw2(4).jpg"
-                alt="słuchawki"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Projekt Prime</p>
-                <p class="picture-description">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hw2(5).jpg"
-                alt="logo aplikacji boxes"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Projekt Boxes</p>
-                <p class="picture-description">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hm2(6).jpg"
-                alt="monitor z przykładową stroną internetową"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Inspiration has no Borders</p>
-                <p class="picture-description">Strona internetowa</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hw2(7).jpg"
-                alt="dizajn magazynu"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Magazyn Limited Edition</p>
-                <p class="picture-description">Dizajn</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hw2(8).jpg"
-                alt="etykieta"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Projekt LAB</p>
-                <p class="picture-description">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="container-list-item">
-            <figure>
-              <img class="list-image"
-                src="./images/hw2(9).jpg"
-                alt="aplikacja na laptopie"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="picture-name">Growing Business</p>
-                <p class="picture-description">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </div>
+      <section class="portfolio section">
+        <div class="container">
+          <ul class="button-nav list">
+            <li class="portfolio-buttons">
+              <button class="button">Wszystkie</button>
+            </li>
+            <li class="portfolio-buttons">
+              <button class="button">Strony</button>
+            </li>
+            <li class="portfolio-buttons">
+              <button class="button">Aplikacje</button>
+            </li>
+            <li class="portfolio-buttons">
+              <button class="button">Dizajn</button>
+            </li>
+            <li class="portfolio-buttons">
+              <button class="button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="portfolio-gallery list">
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hw2(1).jpg"
+                  alt="makieta strony internetowej"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">Technocrack</h5>
+                  <p class="picture-description">Strona internetowa</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hm2(2).jpg"
+                  alt="przykład dizajnu baneru"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">
+                    Grafika New Orlean vs Golden Star
+                  </h5>
+                  <p class="picture-description">Dizajn</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hm2(3).jpg"
+                  alt="logo restauracji"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">Restauracja Seafood</h5>
+                  <p class="picture-description">Aplikacja</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hw2(4).jpg"
+                  alt="słuchawki"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">Projekt Prime</h5>
+                  <p class="picture-description">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hw2(5).jpg"
+                  alt="logo aplikacji boxes"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">Projekt Boxes</h5>
+                  <p class="picture-description">Aplikacja</p>
+                </div>
+            </a>
+            </li>
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hm2(6).jpg"
+                  alt="monitor z przykładową stroną internetową"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">Inspiration has no Borders</h5>
+                  <p class="picture-description">Strona internetowa</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hw2(7).jpg"
+                  alt="dizajn magazynu"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">Magazyn Limited Edition</h5>
+                  <p class="picture-description">Dizajn</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hw2(8).jpg"
+                  alt="etykieta"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">Projekt LAB</h5>
+                  <p class="picture-description">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-gallery-item">
+              <a href="" class="link">
+                <img
+                  class="list-image"
+                  src="./images/hw2(9).jpg"
+                  alt="aplikacja na laptopie"
+                  width="370"
+                  height="294"
+                />
+                <div class="picture-text">
+                  <h5 class="picture-name">Growing Business</h5>
+                  <p class="picture-description">Aplikacja</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer class="contacts">
-      <a id="logo" class="main-logo" href="./index.html"
-        ><span class="first">Web</span
-        ><span class="second-logo">Studio</span></a
-      >
-      <address>
-        <p class="address-line">m. Warszawa, Aleje Jerozolimskie 21</p>
-      </address>
-      <p class="mail-link">info@example.com</p>
-      <p class="tel-number">+48 111 111 111</p>
+    <footer class="footer-contacts">
+      <div class="container">
+        <a id="logo" class="footer-logo link" href="./index.html"
+          ><span class="first">Web</span
+          ><span class="second-logo">Studio</span></a
+        >
+        <address class="footer-address-list">
+          <ul class="footer-contact list">
+            <li class="address-line">m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li class="mail-link">
+              <a class="link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="tel-number">
+              <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
