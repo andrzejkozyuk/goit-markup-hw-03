@@ -118,10 +118,6 @@ ul {
 .main-navbar-contacts .link:hover {
   color: var(--hover-color);
 }
-/*.menu-link:hover,
-.menu-link:focus {
-  color: var(--hover-color);
-}*/
 
 .main-navbar-contacts {
   display: flex;
